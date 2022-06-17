@@ -1,7 +1,7 @@
 import React from 'react'
-import Form from './SearchForm'
-import Movies from './Movies'
-import NavBar from './NavBar'
+import Form from '../components/SearchForm'
+import Movies from '../components/Movies'
+import NavBar from '../components/NavBar'
 
 const Home = () => {
   return (

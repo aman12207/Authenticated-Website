@@ -1,8 +1,8 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
-import Login from './components/Login'
+import Login from './pages/Login'
 import PrivateRoute from './components/PrivateRoute'
-import Error from './components/Error'
+import Error from './pages/Error'
 import Wrapper from './components/Wrapper'
 
 function App() {

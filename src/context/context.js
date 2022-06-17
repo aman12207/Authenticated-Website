@@ -27,7 +27,7 @@ const AppProvider = ({ children }) => {
     setLoading(true);
     handleSubmit();
     setLoading(false);
-  },[searchTerm])
+  },[searchTerm])   // eslint-disable-line react-hooks/exhaustive-deps
   return <AppContext.Provider value={{loading,list,searchTerm,error,setSearchTerm,setLoading}}>{children}</AppContext.Provider>
 }
 
